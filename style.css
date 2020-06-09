@@ -1,0 +1,312 @@
+body{
+    background-color: #f5f5f5!important;}
+
+.header{
+    background-image: url(dev-img.jpg);
+    width: 100%;
+    height: 634px;
+    background-size: cover;
+    background-position: center;
+}
+.portfolio-name{
+    display: flex;
+    justify-content: flex-end;
+    color: aliceblue;
+    margin: 40px;
+    font-size: 22px;
+    position: relative;
+
+}
+.front{
+    position: absolute;
+    font-size: 43px;    
+    bottom: -40px;
+}
+label{
+    display: inline-block;
+    margin-bottom: 5.5rem;
+}
+.name{
+    font-size: 60px;
+}
+
+.html{
+    width: 100%;
+    height: 30px;
+    background-color: lightsteelblue;
+    margin-top: 22px;
+    margin-left: 20px;
+}
+.percent{
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightslategrey;
+    padding: 2px 1px;
+    width: 85%;
+    height: 95%;
+}
+.css{
+    width: 100%;
+    margin-left: 40px;
+    height:     30px;
+    background-color: lightsteelblue;;
+    margin-top: 22px;
+    margin-left: 20px;
+
+
+}
+.percent-css{
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightslategrey;
+    padding: 2px 1px;
+    width: 40%;
+    height: 95%;
+}
+.skills{
+   
+
+    background-color: white;
+    padding: 20px;
+    width: 48%;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.3);
+}
+
+    
+
+
+.hyper{
+    display: flex;
+    width: 100%;
+    color: white;
+    padding: 20px;
+}
+    
+
+.style{
+    display: flex;
+    color: white;
+    padding: 20px;
+}
+
+.style h2{
+    color: #9E9E9E;
+    font-size: x-large;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    width: 50px;
+
+
+}
+.hyper h2{
+    color: #9E9E9E;
+    font-size: x-large;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    width: 50px;
+
+}
+.details{
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    text-shadow: #00111a;
+    display: flex;
+    justify-content: space-around;
+}
+    
+
+h1{
+    color: #000;
+    
+}
+.border{
+    width: 5px;
+}
+.border-secondary{
+    font-size: 45px;
+    padding: 4px 25px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.85);
+    margin: 40px;
+}
+.para{
+    
+    margin-left: 40px;
+    margin: 20px 4px;   
+    margin-top: 26px;
+}
+.span-para{
+    
+    background-color: white;
+    padding: 20px;
+    width: 48%;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.3);
+}
+
+
+.img-thumbnailS{
+    height: 225px;
+    float: left;
+    clear: both;
+    margin-right: 20px;
+}
+.info, .port{
+    text-align: center; 
+    border-bottom: 1px solid;
+    width: 41%;
+    margin: 0 auto;
+    background-color: #17769c59;
+    border-top: 1px solid;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 10px;
+
+}
+.menu-nav{
+    background-color: #2e3b4c!important;
+    opacity: 0.7;
+}
+.anchor{
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.link{
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 115px;
+    margin-right: 58px;
+ } 
+ .portfolio a{
+    flex: 1 1 360px;
+    margin: 20px;
+
+} 
+.google{
+    background-image: url("google-sign-up-form.png");
+    width: 85%;
+    height: 260px;
+    background-size: cover;
+    box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.3);
+    border: 1px solid white;
+    margin-left: 40px;
+    
+}
+.flowers{
+    background-image: url("html-webpage.png");
+    width: 85%;
+    height: 260px;
+    background-size: cover;
+    box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.3);
+    border: 1px solid white;
+    
+}
+.layout{
+    
+        background-image: url("page-layout.png");
+        width: 85%;
+        height: 260px;
+        background-size: cover;
+        box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.3);
+        border: 1px solid white;
+        margin-left: 40px;
+        
+}
+.loaders{
+    background-image: url("responsive-loader.png");
+    width: 85%;
+    height: 260px;
+    background-size: cover;
+    box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.3);
+    border: 1px solid white;
+}
+.buttons{
+    background-image: url("Buttons-Styling.png");
+    width: 85%;
+    height: 260px;
+    background-size: cover;
+    box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.3);
+    border: 1px solid white;
+    margin-left: 40px;
+}   
+.drop{
+    background-image: url("Drop-down.png");
+    width: 85%;
+    height: 260px;
+    background-size: cover;
+    box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.3);
+    border: 1px solid white;
+    
+
+}
+.flags{
+    background-image: url("flags-alignment.png");
+    width: 85%;
+    height: 260px;
+    background-size: cover;
+    box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.3);
+    border: 1px solid white;
+    margin-left: 40px;
+}   
+.animated-form{
+    background-image: url("Animated-login-form.png");
+    width: 85%;
+    height: 260px;
+    background-size: cover;
+    box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.3);
+    border: 1px solid white;
+    
+}   
+.car{
+    background-image: url("Animated-car.png");
+    width: 85%;
+    height: 260px;
+    background-size: cover;
+    box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.3);
+    border: 1px solid white;
+    margin-left: 40px;
+}   
+.document{
+    background-image: url("Documentaion-webpge.png");
+    width: 85%;
+    height: 260px;
+    background-size: cover;
+    box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.3);
+    border: 1px solid white;
+}   
+.gallery{
+    background-image: url("Gallery.png");
+    width: 41%;
+    height: 260px;
+    background-size: cover;
+    box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.3);
+    border: 1px solid white;
+    margin-left: 41px;
+}
+.contact{
+    background-image: url(footer-back-img2.jpg);
+    background-size: cover;
+    background-color: #2e3b4c;
+    width: 100%;
+}
+.contact h1{
+    color: white;
+}
+.contact i{
+    color: white;
+}
+.contact h3{
+    color: white;
+}
