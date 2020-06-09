@@ -79,7 +79,7 @@
         <a href="https://shoaibahmed230.github.io/Google-sing-up-form/"><div class="google"></div></a>
          <a href="https://shoaibahmed230.github.io/HTML-Ex.-Task-Flowers-Page/"><div class="flowers"></div></a> 
          <a href="https://shoaibahmed230.github.io/final-page-layout-task/"><div class="layout"></div></a>
-        <a href="https://shoaibahmed230.github.io/Responsive-loader/" ><div class="buttons"></div></a>
+        <a href="https://shoaibahmed230.github.io/Responsive-loader/" ><div class="loaders"></div></a>
         <a href="https://shoaibahmed230.github.io/Buttons-Styling/" ><div class="buttons"></div></a>
         <a href="https://shoaibahmed230.github.io/dropdown/" ><div class="drop"></div></a>
         <a href="https://shoaibahmed230.github.io/Flags-Alignment/" ><div class="flags"></div></a>
@@ -93,15 +93,30 @@
  
   <div class="contact"> 
     <h1>Contact</h1>
-    <h3><i class="fa fa-home" aria-hidden="true">Karachi,khi74600,PAK.</i></h3>
+    <h3><i class="fa fa-home" aria-hidden="true"></i>Karachi,khi74600,PAK.</h3>
     <h3><i class="fa fa-envelope" aria-hidden="true">shoaib10ahmed10@gmail.com</i></h3>
     <h3><i class="fa fa-phone" aria-hidden="true">+92 311 2344661</i></h3>
-    <a href="https://twitter.com/ShoaibS73214395?s=03"><i class="fab fa-twitter"></i></a>
-    <a href="https://www.instagram.com/shoaib10ahmed10/"><i class="fa fa-instagram" ></i></a>
-    <a href="https://web.facebook.com/profile.php?id=100025419765886"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-    <a href="shoaib10ahmed10@gmail.com"><i class="fab fa-google"></i></a>
+    <div class="social-icons">
+      <button type="button" class=" buton btn btn-secondary" data-toggle="tooltip" data-placement="top" title="twitter">
+        <a href="https://twitter.com/ShoaibS73214395?s=03"><i class="fab fa-twitter"></i></a></button>
+   
+
+      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="instagram">
+      <a href="https://www.instagram.com/shoaib10ahmed10/"><i class="fa fa-instagram" ></i></a></button>
+
+      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="facebook">
+      <a href="https://web.facebook.com/profile.php?id=100025419765886"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></button>
+
+      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="email">
+      <a href="shoaib10ahmed10@gmail.com"><i class="fab fa-google"></i></a></button>
+    </div>
   </div>
 
 </section>
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+</script>
 </body>
 </html>

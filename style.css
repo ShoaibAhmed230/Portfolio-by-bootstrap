@@ -195,7 +195,7 @@ h1{
 
 } 
 .google{
-    background-image: url("google-sign-up-form.png");
+    background-image: url("google-sign-up-form.PNG");
     width: 85%;
     height: 260px;
     background-size: cover;
@@ -205,7 +205,7 @@ h1{
     
 }
 .flowers{
-    background-image: url("html-webpage.png");
+    background-image: url("html-webpage.PNG");
     width: 85%;
     height: 260px;
     background-size: cover;
@@ -225,7 +225,7 @@ h1{
         
 }
 .loaders{
-    background-image: url("responsive-loader.png");
+    background-image: url("responsive-loader.PNG");
     width: 85%;
     height: 260px;
     background-size: cover;
@@ -242,7 +242,7 @@ h1{
     margin-left: 40px;
 }   
 .drop{
-    background-image: url("Drop-down.png");
+    background-image: url("Drop-down.PNG");
     width: 85%;
     height: 260px;
     background-size: cover;
@@ -252,7 +252,7 @@ h1{
 
 }
 .flags{
-    background-image: url("flags-alignment.png");
+    background-image: url("flags-alignment.PNG");
     width: 85%;
     height: 260px;
     background-size: cover;
@@ -261,7 +261,7 @@ h1{
     margin-left: 40px;
 }   
 .animated-form{
-    background-image: url("Animated-login-form.png");
+    background-image: url("Animated-login-form.PNG");
     width: 85%;
     height: 260px;
     background-size: cover;
@@ -270,7 +270,7 @@ h1{
     
 }   
 .car{
-    background-image: url("Animated-car.png");
+    background-image: url("Animated-car.PNG");
     width: 85%;
     height: 260px;
     background-size: cover;
@@ -279,7 +279,7 @@ h1{
     margin-left: 40px;
 }   
 .document{
-    background-image: url("Documentaion-webpge.png");
+    background-image: url("Documentaion-webpge.PNG");
     width: 85%;
     height: 260px;
     background-size: cover;
@@ -287,7 +287,7 @@ h1{
     border: 1px solid white;
 }   
 .gallery{
-    background-image: url("Gallery.png");
+    background-image: url("Gallery.PNG");
     width: 41%;
     height: 260px;
     background-size: cover;
@@ -296,17 +296,42 @@ h1{
     margin-left: 41px;
 }
 .contact{
-    background-image: url(footer-back-img2.jpg);
+    /* background-image: url(footer-back-img2.jpg); */
     background-size: cover;
     background-color: #2e3b4c;
     width: 100%;
+    padding: 30px;
 }
 .contact h1{
-    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    color: lightblue;
 }
 .contact i{
-    color: white;
+    color: lightblue;
+    padding: 7px;
 }
 .contact h3{
-    color: white;
+   
+    font-size: 16px;
+    text-align: center;
+    font-family: sans-serif;
+    color: lightblue;
+    padding: 5px;
+}
+.social-icons{
+    text-align: center;
+    
+
+}
+
+.buton{
+    background-color: lime;
+}
+.btn-secondary{
+    background-color: lime;
+    
+}
+.buttons{
+    background-color: lime;
 }
