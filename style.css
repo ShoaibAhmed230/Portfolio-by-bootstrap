@@ -186,27 +186,26 @@ h1{
 .portfolio{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 115px;
-    margin-right: 58px;
+    justify-content: center;
+    padding: 15px;
  } 
  .portfolio a{
-    flex: 1 1 360px;
-    margin: 20px;
+    flex: 1 1 345px;
+    max-width: 345px;
+    margin: 5px;
 
 } 
 .google{
     background-image: url("google-sign-up-form.PNG");
-    width: 85%;
+    width: 100%;
     height: 260px;
     background-size: cover;
     box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.3);
     border: 1px solid white;
-    margin-left: 40px;
-    
 }
 .flowers{
     background-image: url("html-webpage.PNG");
-    width: 85%;
+    width: 100%;
     height: 260px;
     background-size: cover;
     box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.3);
@@ -216,17 +215,16 @@ h1{
 .layout{
     
         background-image: url("page-layout.PNG");
-        width: 85%;
+        width: 100%;
         height: 260px;
         background-size: cover;
         box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.3);
         border: 1px solid white;
-        margin-left: 40px;
         
 }
 .loaders{
     background-image: url("responsive-loader.PNG");
-    width: 85%;
+    width: 100%;
     height: 260px;
     background-size: cover;
     box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.3);
@@ -234,16 +232,15 @@ h1{
 }
 .buttons{
     background-image: url("Buttons-Styling.png");
-    width: 85%;
+    width: 100%;
     height: 260px;
     background-size: cover;
     box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.3);
     border: 1px solid white;
-    margin-left: 40px;
 }   
 .drop{
     background-image: url("Drop-down.PNG");
-    width: 85%;
+    width: 100%;
     height: 260px;
     background-size: cover;
     box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.3);
@@ -253,16 +250,15 @@ h1{
 }
 .flags{
     background-image: url("flags-alignment.PNG");
-    width: 85%;
+    width: 100%;
     height: 260px;
     background-size: cover;
     box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.3);
     border: 1px solid white;
-    margin-left: 40px;
 }   
 .animated-form{
     background-image: url("Animated-login-form.PNG");
-    width: 85%;
+    width: 100%;
     height: 260px;
     background-size: cover;
     box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.3);
@@ -271,16 +267,15 @@ h1{
 }   
 .car{
     background-image: url("Animated-car.PNG");
-    width: 85%;
+    width: 100%;
     height: 260px;
     background-size: cover;
     box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.3);
     border: 1px solid white;
-    margin-left: 40px;
 }   
 .document{
     background-image: url("Documentaion-webpge.PNG");
-    width: 85%;
+    width: 100%;
     height: 260px;
     background-size: cover;
     box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.3);
@@ -288,12 +283,11 @@ h1{
 }   
 .gallery{
     background-image: url("Gallery.PNG");
-    width: 41%;
+    width: 100%;
     height: 260px;
     background-size: cover;
     box-shadow: 0px 0px 52px rgba(0, 0, 0, 0.3);
     border: 1px solid white;
-    margin-left: 41px;
 }
 .contact{
     /* background-image: url(footer-back-img2.jpg); */
@@ -334,4 +328,21 @@ h1{
 }
 .buttons{
     background-color: lime;
+}
+@media screen and (max-width: 480px){
+    .header{
+        height: 30vh;
+    }
+    .front{
+        position: absolute;
+        font-size: 17px;
+        bottom: -37px;
+    }
+    label{
+        font-size: 17px;
+    }
+   
+    .portfolio-name {
+        margin: 7px;
+    }
 }
