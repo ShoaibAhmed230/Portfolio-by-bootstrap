@@ -6,7 +6,7 @@ body{
 
 
 .header{
-    background-image: url(dev-img.jpg);
+    background-image: url(images/dev-img.jpg);
     width: 100%;
     height: 634px;
     background-size: cover;
@@ -102,7 +102,6 @@ body{
     color: #9E9E9E;
     font-size: x-large;
     margin-top: 20px;
-    /* letter-spacing: 2px; */
     width: 50%;
 
 
@@ -207,7 +206,7 @@ h1{
 
 } 
 .google{
-    background-image: url("google-sign-up-form.PNG");
+    background-image: url("images/google-sign-up-form.PNG");
     width: 100%;
     height: 260px;
     background-size: cover;
@@ -215,7 +214,7 @@ h1{
     border: 1px solid white;
 }
 .flowers{
-    background-image: url("html-webpage.PNG");
+    background-image: url("images/html-webpage.PNG");
     width: 100%;
     height: 260px;
     background-size: cover;
@@ -225,7 +224,7 @@ h1{
 }
 .layout{
     
-        background-image: url("page-layout.PNG");
+        background-image: url("images/page-layout.PNG");
         width: 100%;
         height: 260px;
         background-size: cover;
@@ -234,7 +233,7 @@ h1{
         
 }
 .loaders{
-    background-image: url("responsive-loader.PNG");
+    background-image: url("images/responsive-loader.PNG");
     width: 100%;
     height: 260px;
     background-size: cover;
@@ -242,7 +241,7 @@ h1{
     border: 1px solid white;
 }
 .buttons{
-    background-image: url("Buttons-Styling.png");
+    background-image: url("images/Buttons-Styling.png");
     width: 100%;
     height: 260px;
     background-size: cover;
@@ -250,7 +249,7 @@ h1{
     border: 1px solid white;
 }   
 .drop{
-    background-image: url("Drop-down.PNG");
+    background-image: url("images/Drop-down.PNG");
     width: 100%;
     height: 260px;
     background-size: cover;
@@ -260,7 +259,7 @@ h1{
 
 }
 .flags{
-    background-image: url("flags-alignment.PNG");
+    background-image: url("images/flags-alignment.PNG");
     width: 100%;
     height: 260px;
     background-size: cover;
@@ -268,7 +267,7 @@ h1{
     border: 1px solid white;
 }   
 .animated-form{
-    background-image: url("Animated-login-form.PNG");
+    background-image: url("images/Animated-login-form.PNG");
     width: 100%;
     height: 260px;
     background-size: cover;
@@ -277,7 +276,7 @@ h1{
     
 }  
 .fruit-store{
-    background-image: url("fruit-store.PNG");
+    background-image: url("images/fruit-store.png");
     width: 100%;
     height: 260px;
     background-size: cover;
@@ -286,7 +285,7 @@ h1{
     
 }  
 .car{
-    background-image: url("Animated-car.PNG");
+    background-image: url("images/Animated-car.PNG");
     width: 100%;
     height: 260px;
     background-size: cover;
@@ -294,7 +293,7 @@ h1{
     border: 1px solid white;
 }   
 .document{
-    background-image: url("Documentaion-webpge.PNG");
+    background-image: url("images/Documentaion-webpge.PNG");
     width: 100%;
     height: 260px;
     background-size: cover;
@@ -302,7 +301,7 @@ h1{
     border: 1px solid white;
 }   
 .gallery{
-    background-image: url("Gallery.PNG");
+    background-image: url("images/Gallery.PNG");
     width: 100%;
     height: 260px;
     background-size: cover;
